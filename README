@@ -1,0 +1,3 @@
+gcc -O2 -o chaining chaining.c harness.c lookup3.c
+
+valgrind --tool=cachegrind ./chaining

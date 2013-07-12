@@ -1,0 +1,28 @@
+echo "chaining"
+./chaining
+./stats.r insert_out
+./stats.r member_out
+echo ""
+
+echo "linear"
+./linear
+./stats.r insert_out
+./stats.r member_out
+echo ""
+
+echo "quadratic"
+./quadratic
+./stats.r insert_out
+./stats.r member_out
+echo ""
+
+echo "double"
+./double
+./stats.r insert_out
+./stats.r member_out
+echo ""
+
+echo "robinhood"
+./robinhood
+./stats.r insert_out
+./stats.r member_out
